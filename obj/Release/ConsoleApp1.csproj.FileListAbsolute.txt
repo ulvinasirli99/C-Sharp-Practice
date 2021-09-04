@@ -1,0 +1,1 @@
+C:\C# Projects\ConsoleApp1\ConsoleApp1\obj\Release\ConsoleApp1.csproj.CoreCompileInputs.cache
