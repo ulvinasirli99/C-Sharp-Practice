@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp1.OOP;
+using System;
 
 namespace ConsoleApp1
 {
@@ -28,7 +29,77 @@ namespace ConsoleApp1
 
             //***************************************************//
 
-            calculatorApp();
+            // calculatorApp();
+
+            //***************************************************//
+
+
+            // Ders2 ders = new Ders2();
+
+            /*
+
+             var sumDers = ders.sumValue(13,24);
+
+             Console.WriteLine(sumDers);
+
+             Console.ReadLine();
+
+             */
+
+            //***************************************************//
+
+            // ders.nameSurname("Ulvi | ", " | Nasirov");
+
+            //***************************************************//
+
+
+            /*
+            
+            Car car = new Car();
+
+            car.machineRun();
+
+            car.carDoorsClosed();
+
+            Console.ReadLine();
+            
+             */
+
+            //***************************************************//
+
+
+            /*
+            
+            
+            Customer customer = new Customer();
+
+            customer.isim = "Ulvi";
+
+            customer.soyisim = "Nasirov";
+
+            customer.maasDeyeri = "2000";
+
+            customer.cinssiyet = "Male";
+
+            customer.customerInfoForm();
+
+            Console.ReadLine();
+
+             */
+
+
+            //***************************************************//
+
+            Student student = new Student();
+
+            student.setStudentName("Ulvi Nasirov");
+
+            string isim = student.getStudentName();
+
+            Console.WriteLine(isim);
+
+            Console.ReadLine();
+
 
 
 
